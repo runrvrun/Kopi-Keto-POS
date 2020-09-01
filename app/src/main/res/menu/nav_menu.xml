@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/ic_ongoing"
+        android:icon="@drawable/ic_hourglass_full_black_24dp"
+        android:title="@string/ongoing"/>
+    <item
+        android:title=""/>
+    <item
+        android:id="@+id/ic_history"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="@string/history"/>
+    <item
+        android:id="@+id/ic_more"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings"/>
+</menu>

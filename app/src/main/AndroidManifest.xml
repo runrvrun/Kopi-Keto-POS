@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dijitlab.kopiketopos">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.dijitlab.kopiketopos.activities.EmployeeAddActivity" />
+        <activity android:name="com.dijitlab.kopiketopos.activities.ProductAddActivity" />
+        <activity android:name="com.dijitlab.kopiketopos.activities.EmployeeListActivity" />
+        <activity android:name="com.dijitlab.kopiketopos.activities.ProductListActivity" />
+        <activity android:name="com.dijitlab.kopiketopos.activities.TransactionCompleteActivity" />
+        <activity android:name="com.dijitlab.kopiketopos.activities.TransactionEditActivity" />
+        <activity android:name="com.dijitlab.kopiketopos.activities.TransactionNewActivity" />
+        <activity
+            android:name="com.dijitlab.kopiketopos.activities.LoginActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.dijitlab.kopiketopos.activities.DashboardActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.dijitlab.kopiketopos.activities.SplashActivity"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
